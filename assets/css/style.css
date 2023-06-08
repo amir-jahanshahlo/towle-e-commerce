@@ -305,6 +305,10 @@ a {
   padding: 10px;
 }
 
+.image {
+  padding: 10px;
+}
+
 .text1 {
   font-family: Open-Sans;
   font-style: normal;
@@ -312,8 +316,12 @@ a {
   font-size: 16px;
   text-align: left;
   padding-left: 14px;
-  padding: 10px;
+  padding-bottom: 80px;
   color: #232323;
+}
+
+.price {
+  display: flex;
 }
 
 .numbers1 {
@@ -323,5 +331,25 @@ a {
   line-height: 39px;
   text-align: left;
   color: #9E3040;
+  padding: 10px;
+}
 
+.numbers2 {
+  text-decoration: line-through;
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  height: 26px;
+  color: #686868;
+  padding-top: 19px;
+}
+
+.add-cart {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
 }
