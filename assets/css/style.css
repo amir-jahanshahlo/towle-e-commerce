@@ -282,8 +282,8 @@ a {
 /* satart of the section2 of the product part */
 .section2 {
   display: grid;
-  grid-template-rows: repeat(2 , 1fr);
-  grid-template-columns: repeat(2 , 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
   margin-top: 40px;
