@@ -364,3 +364,26 @@ a {
   background: #232323;
   border-radius: 5px;
 }
+
+.button-show {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.show-more {
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  background: #9E3040;
+  height: 49px;
+  width: 162px;
+  left: 639px;
+  top: 2382px;
+  border-radius: 5px;
+}
+/* end of the section2 of the product part */
