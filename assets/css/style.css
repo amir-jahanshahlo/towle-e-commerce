@@ -387,3 +387,54 @@ a {
   border-radius: 5px;
 }
 /* end of the section2 of the product part */
+
+/* start of the article part 2 */
+.article-part2 {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.material-info {
+  background: #f3f5f6;
+  border-radius: 30px;
+  padding: 76px 30px 40px 30px;
+  align-self: center;
+  width: 35%;
+}
+
+.p-title {
+  font-family: Hind Siliguri;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9E3040;
+  
+}
+
+.p5 {
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
+
+.shop-button2 {
+  height: 49px;
+  width: 187px;
+  left: 110px;
+  top: 2925px;
+  border-radius: 5px;
+  background: #232323;
+}
+
+.big-image {
+  padding-left: 10px;
+}
+/* end of the article part 2 */
+
+/* start of the trading part */
