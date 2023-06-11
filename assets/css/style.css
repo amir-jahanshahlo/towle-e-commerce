@@ -352,4 +352,15 @@ a {
   font-weight: 600;
   line-height: 26px;
   text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.button-black {
+  height: 42px;
+  width: 137px;
+  left: 834px;
+  top: 1751px;
+  background: #232323;
+  border-radius: 5px;
 }
