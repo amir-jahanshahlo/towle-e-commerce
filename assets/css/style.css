@@ -51,8 +51,8 @@ a {
   font-size: 18px;
   line-height: 29.11px;
   text-align: center;
-  /* left: 50%;
-  transform: translateX(-50%); */
+  left: 25%;
+  transform: translateX(-25%);
 }
 
 .text {
@@ -92,8 +92,8 @@ a {
   font-weight: 500;
   line-height: 29px;
   text-align: center;
-  /* left: 50%; 
-  transform: translate(-50%); */
+  /* right: 12.5%; 
+  transform: translate(-12.5%); */
 }
 
 /* .nav-bar2.horizontal-list {
@@ -108,6 +108,7 @@ a {
 .horizontal-list {
   list-style: none;
   display: flex;
+  justify-content: space-between;
 }
 
 .nav-bar3 {
