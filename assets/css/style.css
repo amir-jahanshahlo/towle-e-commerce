@@ -2,27 +2,22 @@
   font-family: Hind Siliguri;
   src: url("../font/Hind_Siliguri/HindSiliguri-Regular.ttf");
 }
-
 @font-face {
   font-family: Hind Siliguri-bold;
   src: url("../font/Hind_Siliguri/HindSiliguri-Bold.ttf");
 }
-
 @font-face {
   font-family: Open-Sans;
   src: url("../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
   /* Remove the underline of the link */
 }
-
 /* css header */
 .container {
   height: 56px;
@@ -32,7 +27,6 @@ a {
   align-items: center;
   padding: 0px 80px;/* order: top-right-bottom-left */
 }
-
 /* css header items */
 .info {
   display: flex;
@@ -43,7 +37,6 @@ a {
   line-height: 22.64px;
   text-align: center;
 }
-
 .header-main {
   display: flex;
   font-family: Hind Siliguri-bold;
@@ -54,11 +47,9 @@ a {
   left: 25%;
   transform: translateX(-25%);
 }
-
 .text {
   padding-right: 50px;
 }
-
 .img {
   padding-right: 15px;
 }
@@ -73,10 +64,7 @@ a {
   align-items: center;
   align-content: center;
   padding: 0 80px;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
-
 .nav-bar1 {
   font-family: Hind Siliguri;
   font-style: normal;
@@ -85,30 +73,19 @@ a {
   line-height: 49px;
   color: #9e3040;
 }
-
 .nav-bar2 {
+  display: flex;
+  justify-content: space-between;
   font-family: Hind Siliguri;
   font-size: 18px;
   font-weight: 500;
   line-height: 29px;
   text-align: center;
-  /* right: 12.5%; 
-  transform: translate(-12.5%); */
+ padding-left: 80px;
 }
-
-/* .nav-bar2.horizontal-list {
-  margin-right: 100px;
-} */
-
 .link {
   display: block;
   margin-right: 40px;
-}
-
-.horizontal-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
 }
 
 .nav-bar3 {
