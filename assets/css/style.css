@@ -84,8 +84,17 @@ a {
   text-align: center;
   padding-left: 80px;
 }
-.link {
+.mark1 {
   display: flex;
+  align-items: center;
+}
+.image {
+  padding-right: 30px;
+}
+.link1 {
+  margin-right: 10px;
+}
+.link {
   margin-right: 40px;
 }
 
@@ -280,10 +289,6 @@ a {
   width: 329px;
   left: 665px;
   top: 1407px;
-  padding: 10px;
-}
-
-.image {
   padding: 10px;
 }
 
