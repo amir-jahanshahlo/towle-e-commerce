@@ -90,9 +90,7 @@ a {
   display: flex;
   align-items: center;
 }
-.image {
-  padding-right: 30px;
-}
+
 .link1 {
   margin-right: 10px;
 }
@@ -360,6 +358,8 @@ a {
   background: #F3F5F6;
   border-radius: 10px;
   text-align: center;
+  align-content: center;
+  align-items: center;
   padding: 14px 0;
   display: flex;
   flex-direction: column;
@@ -426,6 +426,12 @@ a {
   background: #232323;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
+}
+
+.button-black:hover,
+.button-black:focus {
+  opacity: 0.75;
 }
 
 .button-show {
@@ -449,6 +455,37 @@ a {
   top: 2382px;
   border-radius: 5px;
   cursor: pointer;
+  border: 2px solid #c87b86;
+}
+
+.show-more:hover {
+  background-color:#fff ;
+  color: #9E3040;
+}
+
+.show-more span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.show-more span:after {
+  content: '\21E9';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: -20px;
+  transition: 0.2s;
+}
+
+.show-more:hover span {
+  padding-bottom: 25px;
+}
+
+.show-more:hover span:after {
+  opacity: 1;
+  bottom: 0;
 }
 /* end of the section2 of the product part */
 
