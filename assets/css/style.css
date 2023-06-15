@@ -49,6 +49,8 @@ a {
 }
 .text {
   padding-right: 50px;
+  color: rgba(35, 35, 35, 1);
+
 }
 .img {
   padding-right: 15px;
