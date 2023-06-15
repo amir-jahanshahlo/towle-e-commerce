@@ -115,18 +115,58 @@ a {
 .button {
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+  border: #686868;
   cursor: pointer;
   border: rgba(0, 0, 0, 0.09);
 }
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.3s;
+}
+
 .button2 {
   background-color: #9E3040;
+  border-color: #df6565;
   font-family: Hind Siliguri;
   font-size: 18px;
   font-weight: 600;
   line-height: 29px;
   text-align: center;
   cursor: pointer;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+.button2:hover {
+  background-color:#fff ;
+  color: #9E3040;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  /* it means >> */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .nav-bar3 .button2 {
