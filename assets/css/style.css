@@ -748,3 +748,11 @@ a {
   text-align: left;
   margin: 10px;
 }
+
+.link-g {
+  display: grid;
+  grid-template-rows: repeat(4 , 0.25fr);
+  grid-template-columns: repeat(4 , 00.25fr);
+  gap: 15px;
+  padding-top: 30px;
+}
