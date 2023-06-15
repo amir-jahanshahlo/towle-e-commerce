@@ -101,8 +101,8 @@ a {
 }
 
 .nav-bar3 {
+  display: flex;
   align-items: center;
-  flex-direction: row;
   gap: 7px; /* Sets a 7px gap between flex items */
 }
 
@@ -113,11 +113,10 @@ a {
   border-radius: 5px;
 }
 .button {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 5px;
-  border: #686868;
   cursor: pointer;
-  border: rgba(0, 0, 0, 0.09);
+  border: 1px solid #686868;
 }
 
 .button:hover {
@@ -127,7 +126,7 @@ a {
 
 .button2 {
   background-color: #9E3040;
-  border-color: #df6565;
+  border: 2px solid #c87b86;
   font-family: Hind Siliguri;
   font-size: 18px;
   font-weight: 600;
@@ -137,6 +136,7 @@ a {
   color: #fff;
   transition-duration: 0.3s;
 }
+
 
 .button2:hover {
   background-color:#fff ;
