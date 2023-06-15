@@ -231,7 +231,40 @@ a {
   border: 0;
   background: #ffffff;
   cursor: pointer;
+  transition-duration: 0.3s;
 }
+
+.shop-button:hover {
+  background-color:#9e3040 ;
+  color: #ffffff;
+}
+
+.shop-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.shop-button span:after {
+  content: '\226B';
+  /* it means >> */
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.2s;
+}
+
+.shop-button:hover span {
+  padding-right: 25px;
+}
+
+.shop-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 /* end the article part */
 
 /* start of the benefit part */
