@@ -246,7 +246,6 @@ a {
 
 .shop-button span:after {
   content: '\226B';
-  /* it means >> */
   position: absolute;
   opacity: 0;
   top: 0;
@@ -463,30 +462,6 @@ a {
   color: #9E3040;
 }
 
-.show-more span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.3s;
-}
-
-.show-more span:after {
-  content: '\21E9';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  bottom: -20px;
-  transition: 0.2s;
-}
-
-.show-more:hover span {
-  padding-bottom: 25px;
-}
-
-.show-more:hover span:after {
-  opacity: 1;
-  bottom: 0;
-}
 /* end of the section2 of the product part */
 
 /* start of the article part 2 */
@@ -696,9 +671,10 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  gap: 10px;
 }
 .email-bar {
-  border: 1px solid rgba(158, 48, 64, 0.3);
+  border: 2px solid rgba(46, 46, 46, 0.3);
   border-radius: 5px;
   width: 423px;
   height: 48px;
@@ -710,17 +686,13 @@ a {
   padding-left: 23px;
 }
 
-.sub-button {
+.s-button {
   font-family: Hind Siliguri;
   font-size: 18px;
   font-weight: 600;
   line-height: 29px;
   letter-spacing: 0em;
   text-align: center;
-  
-}
-
-.s-button {
   box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
   border-radius: 5px;
   width: 162px;
@@ -728,6 +700,7 @@ a {
   background: #9e3040;
   color: #fff;
   border: 0;
+  cursor: pointer;
 }
 /* end of the email */
 
