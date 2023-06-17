@@ -91,6 +91,10 @@ a {
   align-items: center;
 }
 
+.neshanak {
+  padding-right: 35px;
+}
+
 .link1 {
   margin-right: 10px;
 }
@@ -699,8 +703,13 @@ a {
   height: 49px;
   background: #9e3040;
   color: #fff;
-  border: 0;
+  border: 2px solid #c87b86;
   cursor: pointer;
+}
+
+.s-button:hover {
+  background-color:#fff ;
+  color: #9E3040;
 }
 /* end of the email */
 
@@ -738,15 +747,28 @@ a {
   margin: 10px;
 }
 
+.Q-links {
+  color: #303030;
+}
+
 .footer-item2 {
   font-family: Open-Sans;
   font-weight: 400;
   font-size: 17px;
   color: #303030;
-  display: flex;
+  display: inline-flex;
   align-items: center ;
   text-align: left;
   margin: 10px;
+}
+
+.footer-item2 {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.footer-item2 img {
+  margin-right: 10px;
 }
 
 .link-g {
