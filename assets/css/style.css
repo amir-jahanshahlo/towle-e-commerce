@@ -14,6 +14,11 @@
   margin: 0;
   padding: 0;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   /* Remove the underline of the link */
@@ -199,9 +204,6 @@ a {
   text-align: left;
   padding: 0 80px;
   height: 150px;
-  width: 422px;
-  left: 80px;
-  top: 401px;
 }
 
 .under-text {
@@ -213,10 +215,8 @@ a {
   text-align: left;
   color: #ffffff;
   height: 33px;
-  width: 458px;
-  left: 80px;
-  top: 565px;
   padding: 0 80px;
+  padding-top: 15px;
 }
 
 .shop-button {
